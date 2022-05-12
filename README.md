@@ -1,10 +1,7 @@
-Docker configuration for Apache, PHP 7.4, MySQL 8 and phpmyadmin.
+Docker configuration for Apache, PHP 7.4, MySQL-Percona 5.6.41 and phpmyadmin.
 
-1. Create sessions folder.
-2. Create data/mysq folder.
-3. Create logs/mysql folder.
-4. Run: docker-compose build
-5. Run: docker-compose up
+1. Run: docker-compose build
+2. Run: docker-compose up
 
 
-phpmyadmin username / password: root / password
+phpmyadmin username / password: root / example
