@@ -1,7 +1,10 @@
-# Docker-php7.4-mysql-percona5.6.41-phpmyadmin
-Development environment containing: PHP 7.4 / MySql-Percona 5.6.41 / PhpMyAdmin
+Docker configuration for Apache, PHP 7.4, MySQL 8 and phpmyadmin.
 
-Run
+1. Create sessions folder.
+2. Create data/mysq folder.
+3. Create logs/mysql folder.
+4. Run: docker-compose build
+5. Run: docker-compose up
 
-1. docker-compose build
-2. docker-compose up -d
+
+phpmyadmin username / password: root / password
